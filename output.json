@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "name": "Pick up pipes and tiles",
+    "dependencies": [
+      {
+        "id": "2",
+        "name": "Install tiles",
+        "dependencies": []
+      },
+      {
+        "id": "3",
+        "name": "Install pipes",
+        "dependencies": [
+          {
+            "id": "4",
+            "name": "Waterproof pipes",
+            "dependencies": []
+          },
+          {
+            "id": "6",
+            "name": "Rustproof pipes",
+            "dependencies": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Install tiles",
+    "dependencies": []
+  },
+  {
+    "id": "3",
+    "name": "Install pipes",
+    "dependencies": [
+      {
+        "id": "4",
+        "name": "Waterproof pipes",
+        "dependencies": []
+      },
+      {
+        "id": "6",
+        "name": "Rustproof pipes",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Waterproof pipes",
+    "dependencies": []
+  },
+  {
+    "id": "5",
+    "name": "Remove old tiles",
+    "dependencies": [
+      {
+        "id": "2",
+        "name": "Install tiles",
+        "dependencies": []
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Rustproof pipes",
+    "dependencies": []
+  }
+]
